@@ -23,7 +23,7 @@ This Bot is powered By LoveCalculator API (https://market.mashape.com/ajith/love
 4. To play flames send  "flames your-name partner-name"
 ```
 
-### Note: Send your query without quotes or any other special character.
+##### Note: Send your query without quotes or any other special character.
 
 ### Links
 [Drawers Official Website](http://wantdrawers.in/)
