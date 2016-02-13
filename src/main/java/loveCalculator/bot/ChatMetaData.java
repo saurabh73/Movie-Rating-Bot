@@ -1,4 +1,4 @@
-package dictionary.bot;
+package loveCalculator.bot;
 
 import com.google.gson.Gson;
 

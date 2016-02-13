@@ -1,17 +1,35 @@
-# Java-dictionary.bot.Bot
+# LoveCacluator.Bot
 [![Build Status](https://travis-ci.org/DrawersApp/Java-Bot.svg?branch=master)](https://travis-ci.org/DrawersApp/Java-Bot)
 
-It is using Smack client to connect to Drawers. It is a simple echo bot which returns bot says. Replace it with your custom logic. Just override generatesreply in BotCaller. 
+It is using Smack client to connect to Drawers. This is Bot returns Love Compatibility between the input names.To use send your name and the name of your partner/lover/crush to find Love compatibility & chances of successful love relationship. You can also flames game, we used to play in our childhood to calculate our love compatibility.
+
+This Bot is powered By LoveCalculator API (https://market.mashape.com/ajith/love-calculator).
+
+
+### Step to use.
+```
+1. Register on Drawer's site for bot credentials.
+2. Update credentials in BotCredentials.java file.
+3. Run mvn clean install package in terminal/command prompt (Maven Required).
+4. Go to target and run the fat jar using java -jar (JRE Required). 
+```
+
+## Usage
 
 ```
-1. mvn install.
-2. mvn clean package.
-3. Go to target and run the fat jar using java -jar. 
+1. Open Drawer's App and send message to Bot's Number obtained after registration.
+2. Send "help" without quotes to know about usage.
+3. To know about love compatibility send "love your-name partner-name"
+4. To play flames send  "flames your-name partner-name"
 ```
 
-## Awesome libraries
-```
-1. For writing bots with rest libraries- Retrofit - http://square.github.io/retrofit/
-2. For recurring tasks like updated cricket score every 5 mins - https://quartz-scheduler.org/
-3. http://www.ehcache.org/ - For storing items in memory like list of cricket matches. 
-```
+### Note: Send your query without quotes or any other special character.
+
+### Links
+[Drawers Official Website](http://wantdrawers.in/)
+[Drawers Github Project](https://github.com/DrawersApp/)
+
+
+
+
+

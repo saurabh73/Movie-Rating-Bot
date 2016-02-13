@@ -1,4 +1,4 @@
-package dictionary.bot;
+package loveCalculator.bot;
 
 import org.jivesoftware.smack.packet.Message;
 
