@@ -1,4 +1,4 @@
-package loveCalculator.bot;
+package movieInfo.bot;
 
 import org.jivesoftware.smack.packet.Message;
 

@@ -1,4 +1,4 @@
-package loveCalculator.bot.impl;
+package movieInfo.bot.impl;
 /**
  * @author saurabh dutta
  *
@@ -17,8 +17,8 @@ import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
-import loveCalculator.bot.Bot;
-import loveCalculator.bot.MessageSubscriber;
+import movieInfo.bot.Bot;
+import movieInfo.bot.MessageSubscriber;
 
 /**
  * Initializing the bot.

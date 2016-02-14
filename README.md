@@ -1,9 +1,9 @@
-# LoveCacluator.Bot
+# IMDB Rating.Bot
 [![Build Status](https://travis-ci.org/DrawersApp/Java-Bot.svg?branch=master)](https://travis-ci.org/DrawersApp/Java-Bot)
 
-It is using Smack client to connect to Drawers. This is Bot returns Love Compatibility between the input names.To use send your name and the name of your partner/lover/crush to find Love compatibility & chances of successful love relationship. You can also play flames game, we used to play in our childhood to calculate our love compatibility.
+It is using Smack client to connect to Drawers. This is BOT returns Movie/Series information like plot, genre, actors,etc along with the IMDB rating. Will help to quickly decide which movie to watch next.
 
-This Bot is powered By LoveCalculator API (https://market.mashape.com/ajith/love-calculator).
+This BOT is powered By OMDb API (http://www.omdbapi.com/).
 
 
 ### Step to use.
@@ -19,8 +19,8 @@ This Bot is powered By LoveCalculator API (https://market.mashape.com/ajith/love
 ```
 1. Open Drawer's App and send message to Bot's Number obtained after registration.
 2. Send "help" without quotes to know about usage.
-3. To know about love compatibility send "love your-name partner-name"
-4. To play flames send  "flames your-name partner-name"
+3. To get movie information send "movie movie-name" eg. "movie star wars
+4. To get series information send  "series series-name s#(optional) e#(optional)" eg. "series friends s01 e01"
 ```
 
 ##### Note: Send your query without quotes or any other special character.
@@ -28,8 +28,3 @@ This Bot is powered By LoveCalculator API (https://market.mashape.com/ajith/love
 ### Links
 [Drawers Official Website](http://wantdrawers.in/)
 [Drawers Github Project](https://github.com/DrawersApp/)
-
-
-
-
-

@@ -89,7 +89,7 @@
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
-                                        <Main-Class>movieInfo.bot.impl.BotsCaller</Main-Class>
+                                        <Main-Class>loveCalculator.bot.impl.BotsCaller</Main-Class>
                                     </manifestEntries>
                                 </transformer>
                             </transformers>

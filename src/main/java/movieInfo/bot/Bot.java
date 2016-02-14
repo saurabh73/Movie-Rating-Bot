@@ -1,4 +1,4 @@
-package loveCalculator.bot;
+package movieInfo.bot;
 import org.jivesoftware.smack.*;
 import org.jivesoftware.smack.filter.MessageTypeFilter;
 import org.jivesoftware.smack.filter.StanzaFilter;
@@ -66,7 +66,7 @@ public class Bot implements PingFailedListener {
         config.setXmppDomain(JidCreate.domainBareFrom("ejabberd.sandwitch.in"));
         config.setDebuggerEnabled(true);
         config.setCompressionEnabled(true);
-        config.setSecurityMode(ConnectionConfiguration.SecurityMode.disabled);
+        config.setSecurityMode(ConnectionConfiguration.SecurityMode.ifpossible);
         config.setKeystorePath("src/main/java/res/ser.cert");
         try {
             TLSUtils.acceptAllCertificates(config);
